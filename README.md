@@ -116,7 +116,7 @@ cd ..\securebank-backend
 docker compose up -d --build
 ```
 
-In the AWS deployment, this service runs on the same EC2 Docker Compose stack as the backend and consumes RabbitMQ events privately inside the Docker network.
+In the AWS deployment, this service runs on the same EC2 Docker Compose stack as the backend and consumes RabbitMQ events privately inside the Docker network. It is not exposed as a public HTTP service.
 
 Useful checks:
 
